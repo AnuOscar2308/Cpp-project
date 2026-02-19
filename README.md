@@ -28,13 +28,13 @@ The queue ensures:
 ### 2) Internal Data Structure Design (Queue + Linked List)
 The queue is not created using built-in containers — it is manually implemented using a singly linked list.
 
-Node Structure (Linked List)
-Each node represents one customer order and stores:
-- An array of menu item codes (10 items)
-- A pointer to the next order in the queue
-
-Conceptually:
-
-``` Order → Order → Order → NULL ```
-
-So every customer order becomes one linked list node.
+**Node Structure (Linked List)**
+  Each node represents one customer order and stores:
+  - An array of menu item codes (10 items)
+  - A pointer to the next order in the queue
+  
+  Conceptually:
+  
+  ``` Order → Order → Order → NULL ```
+  
+  So every customer order becomes one linked list node.
