@@ -23,7 +23,6 @@ A Queue (FIFO) is implemented using a linked list to store customer orders.
 
 Each order represents one customer’s purchase containing multiple menu items.
 The queue ensures:
-
   The first customer who places an order is the first customer whose order is delivered.
 
 ### 2) Internal Data Structure Design (Queue + Linked List)
