@@ -29,7 +29,6 @@ The queue ensures:
 The queue is not created using built-in containers — it is manually implemented using a singly linked list.
 
 Node Structure (Linked List)
-
 Each node represents one customer order and stores:
 - An array of menu item codes (10 items)
 - A pointer to the next order in the queue
